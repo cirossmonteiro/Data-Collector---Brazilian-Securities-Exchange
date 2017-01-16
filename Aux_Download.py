@@ -39,7 +39,7 @@ class Update_local_data():
             self.__Print("Working on directory of interest: %s" %(targ))
             ftp = ftplib.FTP("ftp.bmf.com.br")
             cc = ftp.login()
-            if "Anonymous user logged in" in ftp.login():
+            if "Anonymous user logged in" in cc:
                 self.__Print("Connection to FTP server has been established.")
             else:
                 self.__Print("Connection has just failed.")
