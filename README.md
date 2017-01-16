@@ -5,6 +5,6 @@ GUI to download data from BM&amp;FBovespa FTP server
 
 2) Save all files at the same folder
 
-3) Run maintk.py
+3) Run MAIN.py
 
 4) Have fun
